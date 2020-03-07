@@ -1,1 +1,4 @@
 my first fitcha 
+cout << "hello git"
+_getch;
+return 0;

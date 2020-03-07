@@ -1,1 +1,11 @@
-моя супер-пупер мега-крутая фича!!!
+Hello, world!
+
+My new code for Sensei Muhammed
+{
+My coolest code is the first line
+My coolest code is the second line
+My coolest code is the third line
+My coolest code is the fourth line
+}
+
+return 0;

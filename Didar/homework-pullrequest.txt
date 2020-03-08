@@ -1,0 +1,7 @@
+#include <iostream>
+С праздникам вам)))
+using namespace std;
+int main()
+{
+cout<<"hello Yana"<< endl;
+}

@@ -1,0 +1,29 @@
+#include stdio.h
+
+int main()
+{   setlocale(LC_ALL,"russian");
+    FILE *f;
+    f=fopen("c_autorun_ru.bmp","rb");
+    fseek(f, 10, SEEK_SET);
+    int sm;
+    
+    fread(&sm,sizeof(sm),1,f);
+    fseek(f,sm,SEEK_SET);
+    
+    unsigned char b[8]={0}, s=0, er=0;
+    while (er!=8)
+    {
+        er = 0;
+        fread(b,sizeof(b),1,f);
+        for(int i=0;i<8;i++)
+        {
+            b[i]&=1;
+            if (b[i]==0) er++;
+            s|=b[i]<<7-i;
+        }
+        cout<<s;
+        s=0;
+    }
+    getch();
+    return 0;
+}

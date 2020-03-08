@@ -1,4 +1,7 @@
-#include stdio.h
+#include "stdio.h"
+#include "windows.h"
+#include <iostream>
+#include "string.h"
 
 int main()
 {   setlocale(LC_ALL,"russian");

@@ -1,4 +1,4 @@
-#include <iostream>
+HELLO
 С праздникам вам)))
 Спасибо
 using namespace std;

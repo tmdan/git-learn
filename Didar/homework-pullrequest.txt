@@ -1,4 +1,4 @@
-HELLO
+BSUIR
 С праздникам вам)))
 Спасибо
 using namespace std;

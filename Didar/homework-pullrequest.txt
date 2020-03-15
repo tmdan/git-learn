@@ -1,5 +1,6 @@
 #include <iostream>
 С праздникам вам)))
+Спасибо
 using namespace std;
 int main()
 {

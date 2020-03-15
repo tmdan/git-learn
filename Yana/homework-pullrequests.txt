@@ -1,4 +1,4 @@
-HELLO
+Hi my name is bond James bond
 #include "windows.h"
 #include <iostream>
 #include "string.h"

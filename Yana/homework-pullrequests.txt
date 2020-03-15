@@ -1,4 +1,5 @@
-HELLO
+Yana's CODE:
+HELLO world ;)
 #include "windows.h"
 #include <iostream>
 #include "string.h"
